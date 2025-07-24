@@ -5,7 +5,7 @@ const filePath = './database/personalize.json';
 // Datos predeterminados que se agregarán al archivo si no existe
 const defaultData = {
     default: {
-        botName: "Alya Mikhailovna Kujou",
+        botName: "Alya Kujou",
         currency: "yenes",
         videos: [
             "https://files.catbox.moe/b5n81s.mp4",
