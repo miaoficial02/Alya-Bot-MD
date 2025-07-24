@@ -96,7 +96,7 @@ npm start
 
 <p align="center">
   <a href="https://github.com/miaoficial02">
-    <img src="https://github.com/miaoficial02.png" width="130" height="130" alt="𝓔𝓶𝓶𝓪 (𝓥𝓲𝓸𝓵𝓮𝓽`𝓼 𝓥𝓮𝓻𝓼𝓲𝓸𝓷)"/>
+    <img src="https://github.com/miaoficial02.png" width="130" height="130" alt="𝓜𝓲𝒶 𝒪𝒻𝒾𝒸𝒾𝒶𝓁"/>
     <br>
     <strong>𝓔𝓶𝓶𝓪 (𝓥𝓲𝓸𝓵𝓮𝓽`𝓼 𝓥𝓮𝓻𝓼𝓲𝓸𝓷)</strong>
   </a>
