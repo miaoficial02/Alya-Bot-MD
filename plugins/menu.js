@@ -41,7 +41,15 @@ https://whatsapp.com/channel/0029Vaj5mivLdQegrUZ1Xl3M
 
 ╭── ⋆⋅🎀⋅⋆ ──╮
 │ 🎩 𝙰𝙳𝙼𝙸𝙽𝙸𝚂𝚃𝚁𝙰𝙲𝙸Ó𝙽 ⚙️
-│ ✧ .ban ➩ .kick 🚫 Expulsa a los usuarios (Solo Admins)
+│ ✧ .kick 🚫 Expulsa a los usuarios (Solo Admins)
+│ ✧ .grupo abrir/cerrar ⚠️
+│ ✧ .promote 🔰
+│ ✧ .demote 🔰
+│ ✧ .link 🔗
+│ ✧ .gpname📝
+│ ✧ .gpdesc 📝
+│ ✧ .tagall 👥
+│ ✧ .tag 👤
 │ ✧ .getplugin 🔌
 │ ✧ .getpack 📦
 │ ✧ .store 🛒
