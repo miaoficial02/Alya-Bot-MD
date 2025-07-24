@@ -17,116 +17,112 @@ let handler = async (m, { conn }) => {
         const randomVideoUrl = videos[Math.floor(Math.random() * videos.length)];
 
         const menuMessage = `
-╭──〕${botName} 〕
-├̟̇❀ 𝑫𝒆𝒔𝒂𝒓𝒓𝒐𝒍𝒍𝒂𝒅𝒐 𝑷𝒐𝒓 : 
-├̟̇❀ ${dev}
-├̟̇❀ 𝑽𝒆𝒓𝒔𝒊𝒐́𝒏 : ${vs}
-╰──────────╼
+𔓕꯭  ꯭ 𓏲꯭֟፝੭ *${botname}* 𓏲꯭֟፝੭ ꯭  ꯭𔓕
 
-💬¡Hola ! Soy ${botName}, aquí tienes la lista de comandos ✨
-💰 Moneda actual: ¥ ${currency}
+「💫」 𝐀𝐪𝐮𝐢 𝐭𝐢𝐞𝐧𝐞𝐬 𝐦𝐢 𝐥𝐢𝐬𝐭𝐚 𝐝𝐞 𝐜𝐨𝐦𝐚𝐧𝐝𝐨𝐬! 
 
-Checa nuestro Canal Oficial de WhatsApp en donde se publican actualizaciones:
-https://whatsapp.com/channel/0029Vaj5mivLdQegrUZ1Xl3M
+┏━━⪩「 𝐈𝐍𝐅𝐎 ᚐ 𝐁𝐎𝐓 」⪨
+┃❂ ⧼👑⧽ *Creador:* ${dev}
+┃❂ ⧼🔱⧽ *Modo:* Publico
+┃❂ ⧼🌠⧽ *Baileys:* Multi Device
+┃❂ ⧼🤖⧽ *Version:* ${vs}
+┃❂ ⧼💰⧽ *Moneda:* ¥ ${currency}
+┗━━━━━━━━━━━━━━━━━⪩
 
-╭── ⋆⋅🎀⋅⋆ ──╮
-│ 🎨 𝙿𝙴𝚁𝚂𝙾𝙽𝙰𝙻𝙸𝚉𝙰𝙲𝙸Ó𝙽 🌸
-│ ✧ .setname 🖋️
-│ ✧ .setbanner 🖼️
-│ ✧ .setmoneda 💰
-│ ✧ .viewbanner 📜
-│ ✧ .deletebanner 🚮
-│ ✧ .resetpreferences 🔄
-╰── ⋆⋅🚀⋅⋆ ──╯
+*𝐕𝐢𝐬𝐢𝐭𝐚 𝐥𝐚𝐬 𝐏𝐚𝐠𝐢𝐧𝐚𝐬 𝐎𝐟𝐢𝐜𝐢𝐚𝐥𝐞𝐬 𝐃𝐞 𝐥𝐚 𝐁𝐨𝐭*
 
-╭── ⋆⋅🎀⋅⋆ ──╮
-│ 🎩 𝙰𝙳𝙼𝙸𝙽𝙸𝚂𝚃𝚁𝙰𝙲𝙸Ó𝙽 ⚙️
-│ ✧ .kick 🚫 Expulsa a los usuarios (Solo Admins)
-│ ✧ .grupo abrir/cerrar ⚠️
-│ ✧ .promote 🔰
-│ ✧ .demote 🔰
-│ ✧ .link 🔗
-│ ✧ .gpname📝
-│ ✧ .gpdesc 📝
-│ ✧ .tagall 👥
-│ ✧ .tag 👤
-│ ✧ .getplugin 🔌
-│ ✧ .getpack 📦
-│ ✧ .store 🛒
-│ ✧ .status 💻
-│ ✧ .ping ⏳
-│ ✧ .on / .off 🔌 Activa o desactiva configuraciones 
-╰── ⋆⋅🚀⋅⋆ ──╯
+☆ *𝐏𝐀𝐆𝐈𝐍𝐀 𝐋𝐔𝐍𝐀-𝐁𝐎𝐓*
+𝐋𝐢𝐧𝐤: https://bit.ly/4lzTWva
+☆ *𝐏𝐀𝐆𝐈𝐍𝐀 𝐑𝐄𝐃𝐄𝐒*
+𝐋𝐢𝐧𝐤: https://atom.bio/itss_mia_oficial
 
-╭── ⋆⋅🎀⋅⋆ ──╮
-│ 🎲 𝚁𝙰𝙽𝙳𝙾𝙼 🎭
-│ ✧ .rw ➩ .rollwaifu 💖
-│ ✧ .winfo 💖
-│ ✧ .c ➩ .claim 📜
-│ ✧ .harem 💑
-│ ✧ .addrw 📝
-│ ✧ .alya ➩ .bot 💖
-│ ✧ .kaori 💖
-╰── ⋆⋅🚀⋅⋆ ──╯
+┏━━❃「  𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋𝐈𝐙𝐀𝐂𝐈𝐎𝐍  」❃
+┃✦ .setname
+┃✧ .setbanner
+┃✦ .setmoneda
+┃✧ .viewbanner
+┃✦ .deletebanner
+┃✧ .resetpreferences
+┗━━━━━━━━━━━━━━━━━⪩
 
-╭── ⋆⋅🎀⋅⋆ ──╮
-│ 📥 𝙳𝙴𝚂𝙲𝙰𝚁𝙶𝙰𝚂 🎵
-│ ✧ .play ➩ nombre de la canción 🎶 (audio)
-│ ✧ .play2 ➩ nombre de la canción 🎥 (video)
-│ ✧ .tt ➩ .tiktok ➩ enlace de TikTok 🎞️
-│ ✧ .ttp ➩ .ttph ➩ enlace de tiktok slides 📷
-│ ✧ .yt ➩ .ytv ➩ enlace de YouTube 🎥
-│ ✧ .yta ➩ enlace de YouTube 🎵
-│ ✧ .sp ➩ .Spotify enlace de Spotify 🎼
-│ ✧ .fb ➩ link de facebook 🎥 (video)
-╰── ⋆⋅🚀⋅⋆ ──╯
+┏━━❃「  𝐆𝐑𝐔𝐏𝐎𝐒  」❃
+┃✦ .kick
+┃✧ .grupo abrir/cerrar
+┃✦ .promote
+┃✧ .demote
+┃✦ .link
+┃✧ .gpname
+┃✦ .gpdesc
+┃✧ .tagall
+┃✦ .tag
+┃✧ .getplugin
+┃✦ .getpack
+┃✧ .store
+┃✦ .status
+┃✧ .ping
+┃✦ .on / .off 
+┗━━━━━━━━━━━━━━━━━⪩
 
-╭── ⋆⋅🎀⋅⋆ ──╮
-│ ⚔️ 𝚁𝙿𝙶 🏹
-│ ✧ .w ➩ .work 💼
-│ ✧ .slut 😈
-│ ✧ .robar 💰
-│ ✧ .deposit (cantidad) 🏦
-│ ✧ .retirar (cantidad) 🏧
-│ ✧ .transferir (cantidad) @usuario 🔁
-│ ✧ .perfil 🆔
-╰── ⋆⋅🚀⋅⋆ ──╯
+┏━━❃「  𝐑𝐀𝐍𝐃𝐎𝐌  」❃
+┃✦ .rw ➩ .rollwaifu
+┃✧ .winfo
+┃✦ .c ➩ .claim
+┃✧ .harem
+┃✦ .addrw
+┃✧ .alya ➩ .bot
+┃✦ .kaori
+┗━━━━━━━━━━━━━━━━━⪩
 
-╭── ⋆⋅🎀⋅⋆ ──╮
-│ 💕 𝚁𝙴𝙰𝙲𝙲𝙸𝙾𝙽𝙴𝚂 𝙰𝙽𝙸𝙼𝙴 🎭
-│ ✧ .abrazar 🤗
-│ ✧ .aburrido 😑
-│ ✧ .bañarse 🛁
-│ ✧ .bleh 😝
-│ ✧ .comer 🍙
-│ ✧ .dance 💃🕺
-│ ✧ .enojado 😡
-│ ✧ .feliz 😊
-│ ✧ .kiss 😘
-│ ✧ .love ❤️
-│ ✧ .matar 🔪
-│ ✧ .morder 🦷
-│ ✧ .nalguear 🍑
-│ ✧ .punch 👊
-│ ✧ .saludar 👋
-│ ✧ .bofetada 🖐️
-│ ✧ .dormir 😴
-╰── ⋆⋅🚀⋅⋆ ──╯
+┏━━❃「  𝐃𝐄𝐒𝐂𝐀𝐑𝐆𝐀𝐒  」❃
+┃✦ .play ➩ nombre de la canción  (audio)
+┃✧ .play2 ➩ nombre de la canción  (video)
+┃✦ .tt ➩ .tiktok ➩ enlace de TikTok 
+┃✧ .ttp ➩ .ttph ➩ enlace de tiktok slides 
+┃✦ .yt ➩ .ytv ➩ enlace de YouTube 
+┃✧ .yta ➩ enlace de YouTube 
+┃✦ .sp ➩ .Spotify enlace de Spotify 
+┃✧ .fb ➩ link de facebook  (video)
+┗━━━━━━━━━━━━━━━━━⪩
 
-╭── ⋆⋅🎀⋅⋆ ──╮
-│ 🛠️𝚑𝚎𝚛𝚛𝚊𝚖𝚒𝚎𝚗𝚝𝚊𝚜🛠️
-│ ✧ .gemini 🌟
-╰── ⋆⋅🚀⋅⋆ ──╯
+┏━━❃「 𝐉𝐔𝐄𝐆𝐎𝐒 𝐑𝐏𝐆 」❃
+┃✦ .w ➩ .work
+┃✧ .slut 
+┃✦ .robar 
+┃✧ .deposit (cantidad)
+┃✦ .retirar (cantidad)
+┃✧ .transferir (cantidad) @usuario
+┃✦ .perfil
+┗━━━━━━━━━━━━━━━━━⪩
+┏━━❃「 𝐑𝐄𝐀𝐂𝐂𝐈𝐎𝐍𝐄𝐒 𝐀𝐍𝐈𝐌𝐄 」❃
+┃ ✦ .abrazar 
+┃ ✧ .aburrido 
+┃ ✦ .bañarse 
+┃ ✧ .bleh 
+┃ ✦ .comer 
+┃ ✧ .dance 
+┃ ✦ .enojado 
+┃ ✧ .feliz 
+┃ ✦ .kiss 
+┃ ✧ .love 
+┃ ✦ .matar 
+┃ ✧ .morder 
+┃ ✦ .nalguear 
+┃ ✧ .punch 
+┃ ✦ .saludar 
+┃ ✧ .bofetada 
+┃ ✦ .dormir 
+┗━━━━━━━━━━━━━━━━━⪩
+┏━━❃「 𝐇𝐄𝐑𝐑𝐀𝐌𝐈𝐄𝐍𝐓𝐀𝐒 」❃
+┃✦  .gemini
+┗━━━━━━━━━━━━━━━━━⪩
 
-╭── ⋆⋅🎀⋅⋆ ──╮
-│ 👑 𝙾𝚆𝙽𝙴𝚁 🛠️
-│ ✧ .update 🔄
-│ ✧ .dsowner ➩ .purgar 🗑️
-│ ✧ .join 🎎
-│ ✧ .ono / .offoS
-╰── ⋆⋅🚀⋅⋆ ──╯
-
-> ${copy} Hecho con mucho amor por ${dev}
+┏━━❃「 𝐎𝐖𝐍𝐄𝐑 」❃
+┃ ✦ .update 
+┃ ✧ .dsowner ➩ .purgar 
+┃ ✦ .join 
+┃ ✧ .ono / .offoS
+┗━━━━━━━━━━━━━━━━━⪩
+> ${copy} Hecho por ${dev}
 `;
 
         await conn.sendMessage(
