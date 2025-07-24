@@ -72,7 +72,7 @@ global.moment = moment
 //------------------------[ Stickers ]-----------------------------
 
 global.packname = 'AlyaBot'
-global.author = 'Emma (Violets Version)'
+global.author = 'і𝗍s.mіᥲ.᥆𝖿іᥴіᥲᥣ'
 
 //------------[ Versión | Nombre  ]------------
 
@@ -81,7 +81,7 @@ global.author = 'Emma (Violets Version)'
 global.wm = 'AlyaBot' 
 global.botname = 'AlyaBot'
 global.vs = '2.3.0 Stable'
-global.dev = 'Emma (Violets Version)'
+global.dev = 'і𝗍s.mіᥲ.᥆𝖿іᥴіᥲᥣ'
 global.copy = '© 2023-2025' // No modificar
 
 // ---------------[ APIs V2 ]---------------
