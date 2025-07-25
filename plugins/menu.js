@@ -64,28 +64,28 @@ let handler = async (m, { conn }) => {
 ┗━━━━━━━━━━━━━━━━━⪩
 
 ┏━━❃「  𝐑𝐀𝐍𝐃𝐎𝐌  」❃
-┃✦ .rw ➩ .rollwaifu
+┃✦ .rw • .rollwaifu
 ┃✧ .winfo
-┃✦ .c ➩ .claim
+┃✦ .c • .claim
 ┃✧ .harem
 ┃✦ .addrw
-┃✧ .alya ➩ .bot
+┃✧ .alya • .bot
 ┃✦ .kaori
 ┗━━━━━━━━━━━━━━━━━⪩
 
 ┏━━❃「  𝐃𝐄𝐒𝐂𝐀𝐑𝐆𝐀𝐒  」❃
 ┃✦ .play ➩ nombre de la canción  (audio)
 ┃✧ .play2 ➩ nombre de la canción  (video)
-┃✦ .tt ➩ .tiktok ➩ enlace de TikTok 
-┃✧ .ttp ➩ .ttph ➩ enlace de tiktok slides 
-┃✦ .yt ➩ .ytv ➩ enlace de YouTube 
-┃✧ .yta ➩ enlace de YouTube 
-┃✦ .sp ➩ .Spotify enlace de Spotify 
-┃✧ .fb ➩ link de facebook  (video)
+┃✦ .tt • .tiktok ➩ enlace de TikTok 
+┃✧ .ttp • .ttph ➩ enlace de tiktok slides 
+┃✦ .yt • .ytv ➩ enlace de YouTube 
+┃✧ .yta • enlace de YouTube 
+┃✦ .sp • .Spotify enlace de Spotify 
+┃✧ .fb • link de facebook  (video)
 ┗━━━━━━━━━━━━━━━━━⪩
 
 ┏━━❃「 𝐉𝐔𝐄𝐆𝐎𝐒 𝐑𝐏𝐆 」❃
-┃✦ .w ➩ .work
+┃✦ .w • .work
 ┃✧ .slut 
 ┃✦ .robar 
 ┃✧ .deposit (cantidad)
@@ -113,14 +113,17 @@ let handler = async (m, { conn }) => {
 ┃ ✦ .dormir 
 ┗━━━━━━━━━━━━━━━━━⪩
 ┏━━❃「 𝐇𝐄𝐑𝐑𝐀𝐌𝐈𝐄𝐍𝐓𝐀𝐒 」❃
+┃✧ .anderson • .sticker
 ┃✦ .gemini
 ┃✧ .calcular
 ┃✦ .tiempo + <pais>
+┃✧ .crearqr
+┃✦ .acortar + <link>
 ┗━━━━━━━━━━━━━━━━━⪩
 
 ┏━━❃「 𝐎𝐖𝐍𝐄𝐑 」❃
 ┃ ✦ .update 
-┃ ✧ .dsowner ➩ .purgar 
+┃ ✧ .dsowner • .purgar 
 ┃ ✦ .join 
 ┃ ✧ .ono / .offoS
 ┗━━━━━━━━━━━━━━━━━⪩
