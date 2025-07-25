@@ -113,7 +113,9 @@ let handler = async (m, { conn }) => {
 ┃ ✦ .dormir 
 ┗━━━━━━━━━━━━━━━━━⪩
 ┏━━❃「 𝐇𝐄𝐑𝐑𝐀𝐌𝐈𝐄𝐍𝐓𝐀𝐒 」❃
-┃✦  .gemini
+┃✦ .gemini
+┃✧ .calcular
+┃✦ .tiempo + <pais>
 ┗━━━━━━━━━━━━━━━━━⪩
 
 ┏━━❃「 𝐎𝐖𝐍𝐄𝐑 」❃
