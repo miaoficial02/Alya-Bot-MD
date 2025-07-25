@@ -40,10 +40,12 @@ else return m.reply(`*Y la imagen? 🤔 Responde a una imagen para hacer el stic
 }}
 handler.help = ['sticker']
 handler.tags = ['sticker']
-handler.command = ['s', 'sticker'] 
+handler.command = ['anderson', 'sticker', 's', ] 
 handler.register = true
 export default handler
-
+//comando personalizado por la Owner Mia
+//nombre anterior "s", " stickers"
+//nombre actual "anderson" 
 const isUrl = (text) => {
 return text.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_+.~#?&/=]*)(jpe?g|gif|png)/, 'gi'))
 }
