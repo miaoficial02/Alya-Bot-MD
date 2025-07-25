@@ -9,14 +9,14 @@ import moment from 'moment-timezone'
 
 //---------[ Añada los numeros a ser Propietario/a ]---------
 
-global.owner = [['5212441357601', 'ＰＲＯＰＩＥＴＡＲＩＯ', true], ['50238999796']]
-global.lidOwners = [['+128514011471987']] // Nota: esta configuracion es para que el bot reconozca a los owners en los grupos, si no quieres que el bot reconozca a los owners en los grupos, simplemente deja el array vacío: global.lidOwners = []
+global.owner = [['50248483769', 'ＰＲＯＰＩＥＴＡＲＩＯ', true], ['50238999796']]
+global.lidOwners = [['+50248483769']] // Nota: esta configuracion es para que el bot reconozca a los owners en los grupos, si no quieres que el bot reconozca a los owners en los grupos, simplemente deja el array vacío: global.lidOwners = []
 global.mods = []
 global.prems = []
 
 //BETA: Si quiere evitar escribir el número que será bot en la consola, agregué desde aquí entonces:
 //Sólo aplica para opción 2 (ser bot con código de texto de 8 digitos)
-global.botNumberCode = "" //Ejemplo: +59309090909
+global.botNumberCode = "" //Ejemplo: +54XXXXXXXXXX
 global.confirmCode = "" 
 
 // Cambiar a false para usar el Bot desde el mismo numero del Bot.
