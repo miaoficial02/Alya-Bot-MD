@@ -6,15 +6,14 @@ let handler = async (m, { conn }) => {
     try {
         const data = JSON.parse(fs.readFileSync(filePath));
 
-        // Cargar datos globales y predeterminados
         const globalConfig = data.global;
         const defaultConfig = data.default;
 
         const botName = globalConfig.botName || defaultConfig.botName;
         const currency = globalConfig.currency || defaultConfig.currency;
-        const videos = globalConfig.videos.length > 0 ? globalConfig.videos : defaultConfig.videos;
+        const banners = globalConfig.banners.length > 0 ? globalConfig.banners : defaultConfig.banners;
 
-        const randomVideoUrl = videos[Math.floor(Math.random() * videos.length)];
+        const randomBannerUrl = banners[Math.floor(Math.random() * banners.length)];
 
         const menuMessage = `
 *𔓕꯭  ꯭ 𓏲꯭֟፝੭💗 𝐇𝐎𝐋𝐀 𝐒𝐎𝐘 ${botname} 💗𓏲꯭֟፝੭ ꯭  ꯭𔓕*
@@ -29,7 +28,7 @@ let handler = async (m, { conn }) => {
 ┃❂ ⧼💰⧽ *Moneda:* ¥ ${currency}
 ┗━━━━━━━━━━━━━━━━━⪩
 
-*𝐕𝐢𝐬𝐢𝐭𝐚 𝐥𝐚𝐬 𝐏𝐚𝐠𝐢𝐧𝐚𝐬 𝐎𝐟𝐢𝐜𝐢𝐚𝐥𝐞𝐬 𝐃𝐞 𝐥𝐚 𝐁𝐨𝐭*
+.*𝐕𝐢𝐬𝐢𝐭𝐚 𝐥𝐚𝐬 𝐏𝐚𝐠𝐢𝐧𝐚𝐬 𝐎𝐟𝐢𝐜𝐢𝐚𝐥𝐞𝐬 𝐃𝐞 𝐥𝐚 𝐁𝐨𝐭*
 
 ☆ *𝐏𝐀𝐆𝐈𝐍𝐀 𝐋𝐔𝐍𝐀-𝐁𝐎𝐓*
 𝐋𝐢𝐧𝐤: https://bit.ly/4lzTWva
@@ -128,17 +127,19 @@ let handler = async (m, { conn }) => {
 ┃ ✧ .ono / .offoS
 ┗━━━━━━━━━━━━━━━━━⪩
 > ${copy} Hecho por ${dev}
+
 `;
 
-        await conn.sendMessage(
+        await conn.sendFile(
             m.chat,
-            {
-                video: { url: randomVideoUrl },
-                gifPlayback: true,
-                caption: menuMessage,
-                mentions: [m.sender]
-            }
+            randomBannerUrl, // URL de la imagen (puede ser jpg/png)
+            'menu.jpg',
+            menuMessage,
+            m,
+            false,
+            { mentions: [m.sender] }
         );
+
     } catch (error) {
         conn.reply(m.chat, `❌ Error al cargar el menú: ${error.message}`, m);
     }
@@ -149,16 +150,3 @@ handler.tags = ['info'];
 handler.command = /^(menu)$/i;
 
 export default handler;
-
-/* estilos de menu
-
-┎───•✧•───⌬
-┃
-┖───•✧•  
-
-
-╭──〕ᴀʟɪsᴀ ʙᴏᴛ - ᴍᴅ 〕
-├̟̇❀ 𝑫𝒆𝒔𝒂𝒓𝒓𝒐𝒍𝒍𝒂𝒅𝒐 𝑷𝒐𝒓 : 
-├̟̇❀ 𝑬𝒎𝒎𝒂 𝓥𝓲𝓸𝓵𝓮𝓽'𝓼 𝓥𝓮𝓻𝓼𝓲𝒐́𝓷
-├̟̇❀ 𝑽𝒆𝒓𝒔𝒊𝒐́𝒏 : 
-╰──────────╼*/
