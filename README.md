@@ -67,8 +67,8 @@ Próximamente se añadirán más proveedores, tanto gratuitos como premium.
 ```bash
 sudo apt update && sudo apt upgrade -y
 sudo apt install git nodejs ffmpeg imagemagick -y
-git clone https://github.com/miaoficial02/Alya-Bot-MD
-cd Alya-Bot-MD
+git clone https://github.com/miaoficial02/Alya-Bot
+cd Alya-Bot
 npm install
 npm start
 ```
@@ -82,8 +82,8 @@ npm start
 ```bash
 pkg update && pkg upgrade
 pkg install git nodejs ffmpeg imagemagick -y
-git clone https://github.com/miaoficial02/Alya-Bot-MD
-cd Alya-Bot-MD
+git clone https://github.com/miaoficial02/Alya-Bot
+cd Alya-Bot
 npm install
 npm start
 ```
